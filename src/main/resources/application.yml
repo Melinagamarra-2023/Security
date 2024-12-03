@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: fitpower
+  profiles:
+    active: ${SPRING_PROFILES_ACTIVE}
+  output:
+    ansi:
+      enabled: always # permite ver el log como colores
+  jpa:
+    defer-datasource-initialization: true
